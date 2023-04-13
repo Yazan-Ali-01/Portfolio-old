@@ -19,7 +19,7 @@ const Education = () => {
               Education Quality
             </h2>
           </div>
-          <div className='mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10'>
+          <div className='mt-6 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10'>
             <ResumeCard
               title='BSc in Electrical Engineering'
               subTitle='University of Tishreen (2019 - Present)'
@@ -27,11 +27,14 @@ const Education = () => {
               des='I am currently pursuing a degree in Electrical Engineering at University of Tishreen, where I have gained a strong foundation in the principles of electrical engineering, including circuit analysis, digital systems, signal processing, and power systems. My studies have honed my problem-solving and critical thinking skills, as well as my ability to work collaboratively in a team. I am excited to apply my diverse skill set and passion for learning to a new and challenging field.'
             />
             <ResumeCard
-              title='Trainer at Syrian Computer Society (SCS) (2022 - Present)'
-              subTitle='Training at Syrian Computer Society (SCS)'
+              title='Certified Professional Diploma In Web Design 2022'
+              subTitle='TECHNO HOME ACADEMY'
               result='SYRIA'
-              des='As a trainer at the Syrian Computer Society (SCS), I had the opportunity to teach and mentor students in a range of courses related to the MERN (MongoDB, Express, React, Node.js) stack. My responsibilities included preparing and delivering lectures, designing and grading assignments and exams, and providing individual feedback and support to students.'
+              des='Developed skills in web design principles, HTML, CSS, JavaScript, and user experience design
+              and increased proficiency in HTML by 50% through hands-on exercises and practical assignments
+              by Completing a final project that involved designing a responsive website for a local business'
             />
+
             <ResumeCard
               title='NodeJS The Complete Guide 2022'
               subTitle='Udemy.com Maximilian Schwarzmüller'
@@ -48,7 +51,7 @@ const Education = () => {
             </p>
             <h2 className='text-3xl md:text-4xl font-bold'>Job Experience</h2>
           </div>
-          <div className='mt-6 lgl:mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10'>
+          <div className='mt-6 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10'>
             <ResumeCard
               title='Freelance Web Developer'
               subTitle='Fiverr - (2019 - Present)'
@@ -56,6 +59,12 @@ const Education = () => {
               des='My experience as a freelance web developer has allowed me to work with clients from all over the world, and has honed my communication and project management skills. I have also gained proficiency in a wide range of technologies and web development frameworks, including HTML, CSS, JavaScript, React, and Node.js.
 
 Throughout my time on Fiverr, I have consistently received positive feedback from clients, and have maintained a high level of customer satisfaction. I am passionate about web development and am committed to delivering high-quality solutions that meet the unique needs of each client.'
+            />
+            <ResumeCard
+              title='Trainer at Syrian Computer Society (SCS) (2022 - Present)'
+              subTitle='Training at Syrian Computer Society (SCS)'
+              result='SYRIA'
+              des='As a trainer at the Syrian Computer Society (SCS), I had the opportunity to teach and mentor students in a range of courses related to the MERN (MongoDB, Express, React, Node.js) stack. My responsibilities included preparing and delivering lectures, designing and grading assignments and exams, and providing individual feedback and support to students.'
             />
             <ResumeCard
               title='Software Tester '

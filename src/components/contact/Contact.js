@@ -23,13 +23,16 @@ const Contact = () => {
   const handleSend = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post('http://localhost:3000/message', {
-        username,
-        email,
-        phoneNumber,
-        subject,
-        message,
-      });
+      const { data } = await axios.post(
+        'https://portfolio-production-e15d.up.railway.app/message',
+        {
+          username,
+          email,
+          phoneNumber,
+          subject,
+          message,
+        }
+      );
       setErrMsg(data.errMsg);
       setSuccessMsg(data.successMsg);
       setUsername('');

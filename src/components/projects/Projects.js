@@ -18,7 +18,8 @@ const Projects = () => {
         <ProjectsCard
           title='MERN E-commerce Website'
           des="I have developed a robust MERN eCommerce application that allows users to browse, search and purchase a variety of products online. This eCommerce application is built using the MERN stack (MongoDB, Express.js, React, and Node.js) and features a scalable and secure architecture that is optimized for performance. The application uses features such as product filtering, sorting, and pagination to provide a seamless shopping experience for users. The application is fully customizable, allowing admins to add, edit and delete products and categories, manage orders and customer data, and customize the website's look and feel. Additionally, the application uses JWT authentication and authorization to protect user data and prevent unauthorized access. Overall, this MERN eCommerce application is a valuable tool for businesses looking to sell products online and provides a great user experience for customers looking to shop online."
-          githubLink={''}
+          githubLink={'https://github.com/Yazan-Ali-01/Easy-Buy-Ecommerce'}
+          liveDemoLink={'https://easy-buy-ecommerce.vercel.app/'}
           src={projectOne}
         />
         <ProjectsCard

@@ -19,7 +19,6 @@ app.use(
 
 // Define your message endpoint
 app.post('/message', async (req, res) => {
-  let sendinginfo;
   const { username, phoneNumber, email, subject, message } = req.body;
 
   sendEmail(username, email, message, phoneNumber, subject)

@@ -61,8 +61,8 @@ const Education = () => {
 Throughout my time on Fiverr, I have consistently received positive feedback from clients, and have maintained a high level of customer satisfaction. I am passionate about web development and am committed to delivering high-quality solutions that meet the unique needs of each client.'
             />
             <ResumeCard
-              title='Trainer at Syrian Computer Society (SCS) (2022 - Present)'
-              subTitle='Training at Syrian Computer Society (SCS)'
+              title='Trainer at Syrian Computer Society (SCS)'
+              subTitle='Training at Syrian Computer Society (SCS) - (2022 - Present)'
               result='SYRIA'
               des='As a trainer at the Syrian Computer Society (SCS), I had the opportunity to teach and mentor students in a range of courses related to the MERN (MongoDB, Express, React, Node.js) stack. My responsibilities included preparing and delivering lectures, designing and grading assignments and exams, and providing individual feedback and support to students.'
             />

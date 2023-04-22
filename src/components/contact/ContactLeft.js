@@ -21,7 +21,7 @@ const ContactLeft = () => {
           projects, or any other inquiries you may have.
         </p>
         <p className='text-base text-gray-400 flex items-center gap-2'>
-          Phone: <span className='text-lightText'>+963 938449815</span>
+          Phone: <span className='text-lightText'>+963938449815</span>
         </p>
         <p className='text-base text-gray-400 flex items-center gap-2'>
           Email: <span className='text-lightText'>yazan.ali.dev@gmail.com</span>
@@ -30,16 +30,16 @@ const ContactLeft = () => {
       <div className='flex flex-col gap-4'>
         <h2 className='text-base uppercase font-titleFont mb-4'>Find me in</h2>
         <div className='flex gap-4'>
-          <span className='bannerIcon'>
-            <a href='https://www.facebook.com/YazanAli007/'>
+          <a href='https://www.facebook.com/YazanAli007/'>
+            <span className='bannerIcon'>
               <FaFacebookF />
-            </a>
-          </span>
-          <span className='bannerIcon'>
-            <a href='https://www.linkedin.com/in/yazan-ali/'>
+            </span>
+          </a>
+          <a href='https://www.linkedin.com/in/yazan-ali/'>
+            <span className='bannerIcon'>
               <FaLinkedinIn />
-            </a>
-          </span>
+            </span>
+          </a>
         </div>
       </div>
     </div>

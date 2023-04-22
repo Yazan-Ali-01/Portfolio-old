@@ -11,7 +11,11 @@ import { SiNextdotjs, SiNodedotjs } from 'react-icons/si';
 
 const LeftBanner = () => {
   const [text] = useTypewriter({
-    words: ['Web Developer.', 'Professional Coder.', 'MERN Stack Developer.'],
+    words: [
+      'MERN Stack Developer.',
+      'REST API Builder.',
+      'Professional Coder.',
+    ],
     loop: true,
     typeSpeed: 20,
     deleteSpeed: 10,

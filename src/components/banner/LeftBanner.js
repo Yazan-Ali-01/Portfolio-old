@@ -1,12 +1,6 @@
 import React from 'react';
 import { useTypewriter, Cursor } from 'react-simple-typewriter';
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaLinkedinIn,
-  FaReact,
-  FaDatabase,
-} from 'react-icons/fa';
+import { FaFacebookF, FaLinkedinIn, FaReact, FaDatabase } from 'react-icons/fa';
 import { SiNextdotjs, SiNodedotjs } from 'react-icons/si';
 
 const LeftBanner = () => {
@@ -49,15 +43,16 @@ const LeftBanner = () => {
             Find me in
           </h2>
           <div className='flex gap-4'>
-            <span className='bannerIcon'>
-              <FaFacebookF />
-            </span>
-            <span className='bannerIcon'>
-              <FaTwitter />
-            </span>
-            <span className='bannerIcon'>
-              <FaLinkedinIn />
-            </span>
+            <a href='https://www.facebook.com/YazanAli007/'>
+              <span className='bannerIcon'>
+                <FaFacebookF />
+              </span>
+            </a>
+            <a href='https://www.linkedin.com/in/yazan-ali/'>
+              <span className='bannerIcon'>
+                <FaLinkedinIn />
+              </span>
+            </a>
           </div>
         </div>
         <div>

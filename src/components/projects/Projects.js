@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../layouts/Title';
-import { projectOne, projectTwo, projectThree } from '../../assets/index';
+import { projectOne, projectTwo, projectThree, projectFour} from '../../assets/index';
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -21,6 +21,13 @@ const Projects = () => {
           githubLink={'https://github.com/Yazan-Ali-01/Easy-Buy-Ecommerce'}
           liveDemoLink={'https://easy-buy-ecommerce.vercel.app/'}
           src={projectOne}
+        />
+        <ProjectsCard
+          title='CarHub || Cars SPA'
+          des="Introducing CarHub, a sleek and modern web application built using Next.js 13 that allows users to browse and view detailed information about cars available for rent. Developed with TypeScript and styled using Tailwind CSS and Headless-UI, this app features a stunning gallery of cars that can be filtered and paginated for ease of use. CarHub provides a seamless user experience, showcasing the latest car models and their specifications in a visually appealing and user-friendly manner. While the app doesn't currently support sign up or renting, these features are planned for future updates. Please note that there is a known issue with the application where changing any search parameter will cause the page to scroll to the top, which is currently a bug in Next.js 13. With its modern design and intuitive interface, CarHub is the perfect tool for car enthusiasts and those looking to rent a car."
+          githubLink={'https://github.com/Yazan-Ali-01/CarCove'}
+          liveDemoLink={'https://car-cove.vercel.app/'}
+          src={projectFour}
         />
         <ProjectsCard
           title='Bootcamps API'

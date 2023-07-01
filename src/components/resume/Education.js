@@ -53,6 +53,12 @@ const Education = () => {
           </div>
           <div className='mt-6 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10'>
             <ResumeCard
+              title='Software Developer'
+              subTitle='BeInMedia - (2023 - Present)'
+              result='REMOTE'
+              des="I've joined BeinMedia's team as a software developer! In this role, I'll be working on developing cutting-edge software solutions to meet the needs of our clients. I'm looking forward to collaborating with my colleagues and contributing to the continued success of the company."
+            />
+            <ResumeCard
               title='Freelance Web Developer'
               subTitle='Fiverr - (2019 - Present)'
               result='REMOTE'
@@ -62,13 +68,13 @@ Throughout my time on Fiverr, I have consistently received positive feedback fro
             />
             <ResumeCard
               title='Trainer at Syrian Computer Society (SCS)'
-              subTitle='Training at Syrian Computer Society (SCS) - (2022 - Present)'
+              subTitle='Training at Syrian Computer Society (SCS) - (2023)'
               result='SYRIA'
               des='As a trainer at the Syrian Computer Society (SCS), I had the opportunity to teach and mentor students in a range of courses related to the MERN (MongoDB, Express, React, Node.js) stack. My responsibilities included preparing and delivering lectures, designing and grading assignments and exams, and providing individual feedback and support to students.'
             />
             <ResumeCard
               title='Software Tester '
-              subTitle='usertesting.com - (2020 - present)'
+              subTitle='usertesting.com - (2020 - 2023)'
               result='SYRIA'
               des='As a software tester at usertesting.com, I am responsible for conducting functional testing on various software applications to ensure they meet quality standards and provide a positive user experience.'
             />

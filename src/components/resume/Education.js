@@ -78,18 +78,6 @@ Throughout my time on Fiverr, I have consistently received positive feedback fro
               result='SYRIA'
               des='As a trainer at the Syrian Computer Society (SCS), I had the opportunity to teach and mentor students in a range of courses related to the MERN (MongoDB, Express, React, Node.js) stack. My responsibilities included preparing and delivering lectures, designing and grading assignments and exams, and providing individual feedback and support to students.'
             />
-            <ResumeCard
-              title='Software Tester '
-              subTitle='usertesting.com - (2020 - 2023)'
-              result='SYRIA'
-              des='As a software tester at usertesting.com, I am responsible for conducting functional testing on various software applications to ensure they meet quality standards and provide a positive user experience.'
-            />
-            <ResumeCard
-              title='Sales Representative '
-              subTitle='Maak-ALBot - (2019 - 2020)'
-              result='SYRIA'
-              des='I worked as a sales representative at Maak-ALBot, a startup company that focused on developing chatbots for businesses. As a sales representative, my primary responsibilities included identifying and reaching out to potential clients, conducting product demos and presentations, and negotiating and closing deals.'
-            />
           </div>
         </div>
       </div>

@@ -53,8 +53,14 @@ const Education = () => {
           </div>
           <div className='mt-6 lgl:mt-14 w-full border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10'>
             <ResumeCard
+              title='Frontend Web Developer'
+              subTitle='Osous Technology - (9/2023 - Present)'
+              result='REMOTE'
+              des="Collaborating closely with a team of talented professionals, we work diligently to provide top-tier web solutions that align with our clients' objectives. My commitment at Osous Technology is to continuously innovate and uphold the highest standards of web development."
+            />
+            <ResumeCard
               title='Software Developer'
-              subTitle='BeInMedia - (2023 - Present)'
+              subTitle='BeInMedia - (5/2023 - 9/2023)'
               result='REMOTE'
               des="I've joined BeinMedia's team as a software developer! In this role, I'll be working on developing cutting-edge software solutions to meet the needs of our clients. I'm looking forward to collaborating with my colleagues and contributing to the continued success of the company."
             />

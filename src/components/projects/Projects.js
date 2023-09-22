@@ -1,6 +1,6 @@
 import React from 'react';
 import Title from '../layouts/Title';
-import { projectOne, projectTwo, projectThree, projectFour} from '../../assets/index';
+import { projectOne, projectTwo, projectThree, projectFour, projectFive} from '../../assets/index';
 import ProjectsCard from './ProjectsCard';
 
 const Projects = () => {
@@ -15,6 +15,13 @@ const Projects = () => {
         />
       </div>
       <div className='grid grid-cols-1 md:grid-cols-2 xl:grid-cols-3 gap-6 xl:gap-14'>
+        <ProjectsCard
+          title='MovieMate - Movie Library'
+          des="MovieMate is a comprehensive movie library application offering movie enthusiasts a one-stop destination for all their movie-related needs. From deep insights into a vast collection of movies to detailed actor profiles, MovieMate has it all! The application is also powered by the TMDB API, ensuring up-to-date and accurate movie data."
+          githubLink={'https://github.com/Yazan-Ali-01/Movie-Mate'}
+          liveDemoLink={'https://movie-mate-k0jusjvcx-yazan-ali-01.vercel.app/'}
+          src={projectFive}
+        />
         <ProjectsCard
           title='MERN E-commerce Website'
           des="I have developed a robust MERN eCommerce application that allows users to browse, search and purchase a variety of products online. This eCommerce application is built using the MERN stack (MongoDB, Express.js, React, and Node.js) and features a scalable and secure architecture that is optimized for performance. The application uses features such as product filtering, sorting, and pagination to provide a seamless shopping experience for users. The application is fully customizable, allowing admins to add, edit and delete products and categories, manage orders and customer data, and customize the website's look and feel. Additionally, the application uses JWT authentication and authorization to protect user data and prevent unauthorized access. Overall, this MERN eCommerce application is a valuable tool for businesses looking to sell products online and provides a great user experience for customers looking to shop online."

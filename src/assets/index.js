@@ -4,6 +4,7 @@ import projectOne from './images/projects/projectOne.jpg';
 import projectTwo from './images/projects/projectTwo.jpg';
 import projectThree from './images/projects/projectThree.jpg';
 import projectFour from './images/projects/projectFour.png';
+import projectFive from './images/projects/projectFive.png';
 import testimonialOne from './images/testmonial/testimonialOne.png';
 import testimonialTwo from './images/testmonial/testimonialTwo.png';
 import quote from './images/testmonial/quote.png';
@@ -20,4 +21,5 @@ export {
   testimonialTwo,
   quote,
   contactImg,
+  projectFive
 };

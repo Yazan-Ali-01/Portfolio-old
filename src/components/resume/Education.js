@@ -60,9 +60,15 @@ const Education = () => {
             />
             <ResumeCard
               title='Software Developer'
-              subTitle='BeInMedia - (5/2023 - 9/2023)'
+              subTitle='BeInMedia Inc - (07/2023 - 01/2024)'
               result='REMOTE'
               des="I've joined BeinMedia's team as a software developer! In this role, I'll be working on developing cutting-edge software solutions to meet the needs of our clients. I'm looking forward to collaborating with my colleagues and contributing to the continued success of the company."
+            />
+            <ResumeCard
+              title='Front-end Web Developer'
+              subTitle='Osous Technology LLC - (08/2021 - 06/2022)'
+              result='REMOTE'
+              des="As a Front-end Web Developer at Osous Technology LLC (August 2021 - June 2022), I specialized in React, Material-UI, and Tailwind CSS. I focused on creating user-friendly, responsive, and high-performing web interfaces, fine-tuning React applications for speed and scalability. Collaborating closely with back-end developers, I ensured smooth integration, maximizing overall application performance. I played a key role in troubleshooting front-end issues, contributing to an enhanced user experience and reinforcing application reliability."
             />
             <ResumeCard
               title='Freelance Web Developer'
@@ -74,7 +80,7 @@ Throughout my time on Fiverr, I have consistently received positive feedback fro
             />
             <ResumeCard
               title='Trainer at Syrian Computer Society (SCS)'
-              subTitle='Training at Syrian Computer Society (SCS) - (2023)'
+              subTitle='Training at Syrian Computer Society (SCS) - (06/2020 - 06/2021)'
               result='SYRIA'
               des='As a trainer at the Syrian Computer Society (SCS), I had the opportunity to teach and mentor students in a range of courses related to the MERN (MongoDB, Express, React, Node.js) stack. My responsibilities included preparing and delivering lectures, designing and grading assignments and exams, and providing individual feedback and support to students.'
             />

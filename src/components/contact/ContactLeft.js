@@ -21,7 +21,7 @@ const ContactLeft = () => {
           projects, or any other inquiries you may have.
         </p>
         <p className='text-base text-gray-400 flex items-center gap-2'>
-          Phone: <span className='text-lightText'>+963938449815</span>
+          Phone: <span className='text-lightText'>+971585342724</span>
         </p>
         <p className='text-base text-gray-400 flex items-center gap-2'>
           Email: <span className='text-lightText'>yazan.ali.dev@gmail.com</span>
